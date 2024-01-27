@@ -7,7 +7,7 @@ import About from "./components/About";
 import React, { useState } from "react";
 import Alert from "./components/Alert";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState(`light`); // Whether dark mode is enable or not
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Navbar
           title="TextUtils"
           aboutText="About Us"
@@ -51,24 +51,24 @@ function App() {
 
         <Alert alert={alert} />
         <div className="container my-3" mode={mode}>
-          <Routes>
+          {/* <Routes>
             <Route path="/about" element={<About />} />
           </Routes>
           <Routes>
             <Route
               path="/"
-              element={
+              element={ */}
                 <TextForm
                   showAlert={showAlert}
                   heading="Enter the text to analyze below"
                   mode={mode}
                 />
-              }
+              {/* }
             />
-          </Routes>
+          </Routes> */}
         </div>
-      </BrowserRouter>
-    </>
+      {/* </BrowserRouter>*/}
+    </> 
   );
 }
 
