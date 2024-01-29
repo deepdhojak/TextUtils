@@ -1,40 +1,58 @@
-TextUtils - A Text Utility Web Application
-TextUtils is a versatile web application that provides a set of handy text manipulation and analysis tools. With TextUtils, you can easily perform a variety of text-related tasks, such as converting text to uppercase or lowercase, removing extra spaces, and more. This application is built using React and designed with user-friendliness in mind.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c653b63b-8e4e-425e-b6e6-d9f5fd2ff2f5/deploy-status?branch=master)](https://app.netlify.com/sites/hassancoder-reactjs-textutils-app/deploys)
+### TextUtils - A Text Utility Web Application
 
-[Hosted on Netlify](https://deepdhojak.github.io/TextUtils/#)
+TextUtils is a versatile web application that provides a set of handy text manipulation and analysis tools. With TextUtils, you can easily perform a variety of text-related tasks, such as converting text to uppercase or lowercase, capitalizing text, removing extra spaces, finding and replacing text, and more. This application is built using React and designed with user-friendliness in mind.
 
-Features
-Text Transformation: Easily convert your text to uppercase, or lowercaseas needed.
+[Hosted on Netlify](https://deepdhojak.github.io/TextUtils/#))
 
-Remove Extra Spaces: Clean up your text by removing any unnecessary extra spaces.
+### Features
 
-Copy and Paste: Quickly copy your text to the clipboard and paste it from the clipboard into the application.
+- **Text Transformation**: Easily convert your text to uppercase, or lowercase as needed.
 
-Text Analysis: Get insights into your text, including character and word counts, and the estimated time it takes to read your text.
+- **Remove Extra Spaces**: Clean up your text by removing any unnecessary extra spaces.
 
-Usage
-Paste Your Text: Enter or paste your text into the TextUtils application.
+- **Copy and Paste**: Quickly copy your text to the clipboard and paste it from the clipboard into the application.
 
-Apply Transformations: Choose from various text manipulation options like converting text to uppercase or lowercase,  and removing extra spaces.
+- **Text Analysis**: Get insights into your text, including character and word counts, and the estimated time it takes to read your text.
 
-Analyze Your Text: Get insights into your text with character and word counts, and time to read.
+### Usage
 
-Copy: Copy your modified text to the clipboard for quick sharing.
+1. **Paste Your Text**: Enter or paste your text into the TextUtils application.
 
-Installation
-Clone the repository to your local machine.
+2. **Apply Transformations**: Choose from various text manipulation options like converting text to uppercase or lowercase, and removing extra spaces.
 
-git clone https://github.com/hassancoder1/reactjs-textutils-app.git
-Navigate to the project directory.
+3. **Analyze Your Text**: Get insights into your text with character and word counts, and time to read.
 
-cd reactjs-textutils-app
-Install the required dependencies.
+4. **Copy**: Copy your modified text to the clipboard for quick sharing.
 
-npm install
-Start the development server.
+### Installation
 
-npm start
-Access TextUtils in your web browser at http://localhost:3000.
+1. Clone the repository to your local machine.
 
-About TextUtils
+   ```
+   git clone https://github.com/hassancoder1/reactjs-textutils-app.git
+   ```
+
+2. Navigate to the project directory.
+
+   ```
+   cd reactjs-textutils-app
+   ```
+
+3. Install the required dependencies.
+
+   ```
+   npm install
+   ```
+
+4. Start the development server.
+
+   ```
+   npm start
+   ```
+
+5. Access TextUtils in your web browser at `http://localhost:3000`.
+
+### About TextUtils
+
 TextUtils is a project, developed while practicing Reactjs, aimed at making text manipulation and analysis more accessible and convenient. Whether you're a writer, editor, student, or just someone who frequently works with text, this application can help you save time and improve the quality of your work. We hope you find TextUtils useful and welcome any feedback or contributions to enhance its functionality.
